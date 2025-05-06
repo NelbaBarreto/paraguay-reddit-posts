@@ -1,0 +1,11 @@
+services:
+  jupyter-notebook:
+    build:
+        context: .
+        dockerfile: Notebook.Dockerfile
+    ports:
+      - "8888:8888"  # Jupyter Notebook port
+    volumes:
+      - ./notebooks:/app/notebooks  # Mount local directory for notebooks
+    environment:
+      - JUPYTER_ENABLE_LAB=yes  # Enable JupyterLab interface
