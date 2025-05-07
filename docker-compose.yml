@@ -9,3 +9,5 @@ services:
       - ./notebooks:/app/notebooks  # Mount local directory for notebooks
     environment:
       - JUPYTER_ENABLE_LAB=yes  # Enable JupyterLab interface
+    env_file:
+      - .env
