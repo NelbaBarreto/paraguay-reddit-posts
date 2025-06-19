@@ -12,16 +12,10 @@ El análisis incluye:
 - Vectorización de texto utilizando TF-IDF.
 - Entrenamiento y evaluación de varios modelos de clasificación: LogisticRegression, RandomForestClassifier y LinearSVC.
 
-notebooks
- - 1-Recolección-de-Datos.ipynb: Extracción y limpieza de datos
- - 2-Modelo.ipynb: Modelado y evaluación
- - data
-  - comentarios
-   - etiquetado.csv: Comentarios con etiquetas de sentimiento
-   - original.csv: Comentarios sin procesar
-  - posts
-   - etiquetado.csv
-   - original.csv
+**notebooks**:
+
+- 1-Recolección-de-Datos.ipynb: Extracción y limpieza de datos
+- 2-Modelo.ipynb: Modelado y evaluación
 
 #### Cómo Ejecutar el Proyecto
 
